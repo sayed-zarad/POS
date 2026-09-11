@@ -7,6 +7,8 @@ const navigationItems = [
   { label: "Products", icon: "products", to: "/products", adminOnly: true },
   { label: "Categories", icon: "products", to: "/categories", adminOnly: true },
   { label: "Inventory", icon: "inventory", to: "/inventory", adminOnly: true },
+  { label: "Reports", icon: "reports", available: false },
+  { label: "Settings", icon: "settings", adminOnly: true, available: false },
   { label: "Users", icon: "users", to: "/users", adminOnly: true },
 ];
 
